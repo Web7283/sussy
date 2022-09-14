@@ -294,7 +294,7 @@ return new A(B,"base64").toString("binary")}:"object"==typeof t.base64js?functio
       scaffolding.setUsername("player####".replace(/#/g, () => Math.floor(Math.random() * 10)));
       scaffolding.setAccentColor("#ff4c4c");
 
-      scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider("wss://https://cloud-data1.herokuapp.com/", "17783489"));
+      scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider("wss://cloud-data1.herokuapp.com/", "17783489"));
 
       if (document.fullscreenEnabled || document.webkitFullscreenEnabled) {
         let isFullScreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
